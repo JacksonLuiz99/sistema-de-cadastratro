@@ -1,0 +1,31 @@
+
+{
+    "produtos": [
+      {
+        "id": 1,
+        "name": "Camiseta Básica",
+        "price": 29.90
+      },
+      {
+        "id": 2,
+        "name": "Tênis Esportivo",
+        "price": 199.90
+      },
+      {
+        "id": 3,
+        "name": "Mochila de Notebook",
+        "price": 119.90
+      },
+      {
+        "id": 4,
+        "name": "Smartphone X100",
+        "price": 2499.90
+      },
+      {
+        "id": 5,
+        "name": "Relógio de Pulso",
+        "price": 89.90
+      }
+    ]
+  }
+  
