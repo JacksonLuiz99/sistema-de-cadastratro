@@ -1,31 +1,72 @@
-
 {
-    "produtos": [
-      {
-        "id": 1,
-        "name": "Camiseta Básica",
-        "price": 29.90
-      },
-      {
-        "id": 2,
-        "name": "Tênis Esportivo",
-        "price": 199.90
-      },
-      {
-        "id": 3,
-        "name": "Mochila de Notebook",
-        "price": 119.90
-      },
-      {
-        "id": 4,
-        "name": "Smartphone X100",
-        "price": 2499.90
-      },
-      {
-        "id": 5,
-        "name": "Relógio de Pulso",
-        "price": 89.90
-      }
-    ]
-  }
-  
+  "produtos": [
+    {
+      "id": "1",
+      "name": "Camiseta Básica",
+      "price": 29.9
+    },
+    {
+      "id": "2",
+      "name": "Tênis Esportivo",
+      "price": 199.9
+    },
+    {
+      "id": "3",
+      "name": "Mochila de Notebook",
+      "price": 119.9
+    },
+    {
+      "id": "4",
+      "name": "Smartphone X100",
+      "price": 2499.9
+    },
+    {
+      "id": "5",
+      "name": "Relógio de Pulso",
+      "price": 89.9
+    },
+    {
+      "id": "6",
+      "name": "Fone de Ouvido Bluetooth",
+      "price": 149.9
+    },
+    {
+      "id": "7",
+      "name": "Jaqueta de Couro",
+      "price": 349.9
+    },
+    {
+      "id": "8",
+      "name": "Câmera Digital",
+      "price": 799.9
+    },
+    {
+      "id": "9",
+      "name": "Livro de Ficção",
+      "price": 39.9
+    },
+    {
+      "id": "10",
+      "name": "Power Bank 10000mAh",
+      "price": 69.9
+    },
+    {
+      "id": "928d",
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+    },
+    {
+      "id": "151c",
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+    },
+    {
+      "id": "5c96",
+      "name": "Tadala new",
+      "price": 99.9
+    },
+    {
+      "id": "53ee",
+      "name": "Gelqadeira velha",
+      "price": 300
+    }
+  ]
+}
